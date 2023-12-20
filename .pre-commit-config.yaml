@@ -27,3 +27,7 @@ repos:
     rev: 0.27.2
     hooks:
     -   id: check-drone-ci
+-   repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.38.0
+    hooks:
+    -   id: markdownlint-fix
