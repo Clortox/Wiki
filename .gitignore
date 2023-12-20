@@ -19,4 +19,7 @@ tags
 # Persistent undo
 [._]*.un~
 
+# No python venv
 venv/
+# Do not include built site
+site/

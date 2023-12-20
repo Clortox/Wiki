@@ -1,1 +1,13 @@
 site_name: Tyler's Services Documentation
+repo_url: https://git.clortox.com/Infrastructure/wiki
+repo_name: Gitea
+site_description: Documentation for Tyler's Public and Semi-Public Services
+site_author: Tyler Perkins
+theme:
+  name: material
+plugins:
+  - search
+  - mermaid2
+  - git-revision-date-localized
+  - git-authors
+  - autolinks
